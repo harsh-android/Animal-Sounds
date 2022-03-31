@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#1d8343"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                app:cardBackgroundColor="#E8F5E9"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <ImageView
+                    android:id="@+id/animalImageview"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/loaderbg" />
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#1d8343"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                app:cardBackgroundColor="#E8F5E9"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/animaNameTextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:text="Cat"
+                    android:textColor="#1d8343"
+                    android:textSize="15dp" />
+            </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

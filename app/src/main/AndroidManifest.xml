@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.avtube.entertainment.animalsounds">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.avtube.animalsounds2019.InfoAboutAnimActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.avtube.animalsounds2019.ViewAnimalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.avtube.animalsounds2019.SubCategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.avtube.animalsounds2019.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.avtube.animalsounds2019.MainMind"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.avtube.animalsounds2019.SpleshActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Facebook Ads start -->
+        <!--<activity-->
+            <!--android:name="com.facebook.ads.AudienceNetworkActivity"-->
+            <!--android:hardwareAccelerated="true" /> &lt;!&ndash; Facebook Ads end &ndash;&gt;-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/appid" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="120efd70e2622c4c4a35026d6177adeb1e1e55e3" />
+    </application>
+
+</manifest>

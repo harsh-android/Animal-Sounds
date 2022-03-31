@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:id="@+id/Imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:fontFamily="@font/my_font"
+        android:text="All \nAnimal Sound"
+        android:layout_marginBottom="40dp"
+        android:textSize="40dp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#1d8343"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            app:cardCornerRadius="5dp">
+
+            <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <ImageView
+                android:id="@+id/categoryImages"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@drawable/loaderbg"></ImageView>
+
+            <TextView
+                android:id="@+id/categoryName"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_gravity="bottom"
+                android:background="#8D000000"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:text="Category Name"
+                android:textColor="#ffffff" />
+
+            <!--</FrameLayout>-->
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

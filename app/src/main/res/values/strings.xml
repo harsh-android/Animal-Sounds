@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">All Animal Sounds : Informtion</string>
+    <string name="toggle_fullscreen">Long click to toggle fullscreen</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+
+    <!--<string name="appid">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--<string name="bannerid">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="bannerid1">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="instatid">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="instatid1">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="videoid">ca-app-pub-3940256099942544/5224354917</string>-->
+
+    <string name="appid">ca-app-pub-6746062372824991~5011529278</string>
+    <string name="bannerid">ca-app-pub-6746062372824991/5809605620</string>
+    <string name="bannerid1">ca-app-pub-6746062372824991/6931115604</string>
+    <string name="instatid">ca-app-pub-6746062372824991/9620804225</string>
+    <string name="instatid1">ca-app-pub-6746062372824991/8307722557</string>
+    <string name="videoid">ca-app-pub-6746062372824991/7114948431</string>
+
+</resources>
